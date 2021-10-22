@@ -1,0 +1,34 @@
+#tableFav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 55px;
+    margin-left: 50px;
+    opacity: 0.80;
+    background: transparent
+
+  }
+
+  #tableFav td, #tableFav th {
+    border: 5px solid black;
+    padding: 15px;
+    font-size: 10px;
+    font-style: oblique;
+    color: blue;
+  }
+
+  #tableFav tr{
+    background-color: white;
+    height: 10px;
+  }
+
+
+  #tableFav tr:hover {background-color:lightgrey;}
+
+  #tableFav th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color:cornflowerblue;
+    color: black;
+    font-size: 20px;
+  }
